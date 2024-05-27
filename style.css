@@ -306,17 +306,23 @@ article .btn {
   justify-content: flex-end;
   margin-right: 0px; /* Adjust as needed */
 }
-
 #recommendations {
+     display: none;
   position: absolute;
-  right: 0;
-  width: 200px; /* Adjust the width as needed */
-  padding: 35px;
+  background: #4e4c47;
+  right: 13px;
+  width: 300px; /* Adjust the width as needed */
+  height: auto;
+  padding: 90px;
   border-radius: 8px;
+overflow-y: auto; 
+  max-height: 400px; /* Set a maximum height for the scrollable area */
+  top: 75px;
+  
 }
 
 #recommendations img {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
@@ -324,8 +330,10 @@ article .btn {
 #recommendations h2 {
   margin-top: 8px;
   font-size: 1.5rem;
+  color: #e0d126;
 }
 #recommendations p {
   margin-top: 4px;
-  text-align: center;
+  text-align: start;
+  color: #f1ecf3;
 }
